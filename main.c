@@ -9,7 +9,7 @@ int main (void)
     int iter=0;
     printf("введите F R P K.\n");
     if(scanf("%d %d %d %d",&F, &R, &P, &K)!=4) {
-        printf("Oшибка ввода.\n");
+        printf("Ошибка ввода.\n");
         return 1;
     }
     if(F<1 || F>20 || R<1 || R>20 || P<1 || P>20){
